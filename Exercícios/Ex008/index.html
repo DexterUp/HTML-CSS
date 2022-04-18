@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="wolf-ico-favicon.ico" type="image/x-icon">
+    <title>Formatação de textos</title>
+</head>
+<body> <h1>Principais Formatações</h1>
+    <h2>Negrito e Destaque</h2>
+     <p>Nessa frase temos um <b>termo em negrito</b>  usando a tag b (não semantica)</p>
+     <p>Nessa frase temos um <strong>termo em destaque</strong> usando a tag strong (semantica)</p>
+    <h2>Itálico e Ênfase</h2>
+     <p>Nessa frase temos um <i>termo em itálico</i>  com a tag i (não semantica)</p>
+     <p>Nessa frase temos um <em>termo com enfase</em> com a tag em (semantica)</p>
+    <h2>Marca texto e deletado</h2>
+     <p>Nessa frase temos um <mark style="background-color:lime">termo marcado</mark> com a tag mark.</p>
+     <p>Nessa frase temos um <del>termo deletado</del> com a tag del.</p>
+     <p>A tag ins <ins>subistitui o itálico</ins> não semantico i.</p>
+    <h2>Inclusive testando para potencias e simbolos quimicos</h2>
+     <p>Por exemplo o simbolo h<sub>2</sub>o com a tag sub.</p>
+      <p>E o numero 100 elevado a 3 fica 100<sup>3</sup> com a tag sup</p>
+      <h2>Citaçoes e Códigos</h2>
+      <p>Se for necessário realizar uma citação a tag é <q>Q</q></p>
+      <p>Se for nessário uma citação mais longa usa-se blockquote. <br>
+    <blockquote cite="https://bastter.com/mercado/acao/">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fugit cumque qui atque, animi consequatur? Odit soluta quis delectus rem quisquam, eos quam ipsum voluptates ratione necessitatibus eligendi modi dolores!</blockquote></p>
+    <p>Para o uso de códigos usa a tag pre e code, no exemplo um código em python: <br>
+    <pre><code>def calculate():
+        operation = input('''
+    Please type in the math operation you would like to complete:
+    + for addition
+    - for subtraction
+    * for multiplication
+    / for division
+    ''')
+    
+        number_1 = int(input('Please enter the first number: '))
+        number_2 = int(input('Please enter the second number: '))
+    
+        if operation == '+':
+            print('{} + {} = '.format(number_1, number_2))
+            print(number_1 + number_2)
+    
+        elif operation == '-':
+            print('{} - {} = '.format(number_1, number_2))
+            print(number_1 - number_2)
+    
+        elif operation == '*':
+            print('{} * {} = '.format(number_1, number_2))
+            print(number_1 * number_2) calculate()</code></pre></p>
+            <h2>Texto invertido e Abreviações</h2>
+            <p>A regra é clara, para <bdo dir="rtl">inverter um texto</bdo> a tag é bdo.</p>
+            <p>E para Abreviações inteligentes em <abbr title="Linguagem de Marcação de HiperTexto">HTML5</abbr> a tag é abbr.</p>
+
+</body>
+</html>

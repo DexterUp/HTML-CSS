@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <title>Ex011 Midias em HTML5</title>
+</head>
+<body><h1>Midias em geral</h1>
+    <h2>Imagens dinamicas</h2>
+    <p>Abra esse site em diversos dispositivos, ou simplesmente aumente e diminua o zoom do navegador.
+    </p>
+<picture>
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem-flexivel">
+</picture>
+<h2>Reproduzindo audios</h2>
+<p>Vamos aprender a reproduzir audios em HTML5</p>
+<h3>Uma maneira é com a tag audio e comandos de controls e autoplay.</h3>
+<audio src="media/rock1.mp3" controls></audio>
+<h3>Outra maneira seria usando a tag audio e source dentro dela</h3>
+<audio preload="metadata" controls> 
+    <source src="media/rock2.mp3" type="audio/mpeg">
+<p>Infelizmente seu navegador não axecuta audio, <a href="media/rock1.mp3">clique para baixar o mp3</a>.</p>
+</audio>
+<h2>Reproduzindo Videos</h2>
+    
+</body>
+</html>

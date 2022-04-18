@@ -1,0 +1,46 @@
+@charset "UTF-";
+body{
+    background-color: #d1b5b5;
+}
+h1{
+    background-color: aqua;
+}
+#principal{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-weight: 700;
+}
+.titulos{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+}
+.subtitulos{
+    background-color: #f0e7e7;
+}
+p{
+    text-align: justify;
+    text-indent: 25px;
+}
+a{
+    color: chartreuse;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+.especial::after{
+    content: '[url]';
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    background-color: aquamarine;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:linear-gradient( to right, #0a2e44,  #829cb1)
+}
+main{
+    margin: auto;
+    background-image: linear-gradient(to right, #D6D58E, #DBF227);
+    text-align: justify;
+    box-shadow: 5px 5px 15px #50580f;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+}
+h1{
+    color: #042940;
+    text-align: center;
+    text-shadow: 1px 1px 0px blanchedalmond;
+}
+h2{
+    color:#005C53 ;
+    text-shadow: 1px 1px 0px blanchedalmond;
+}
+p{
+    color:#02121d ;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    background-color: #9ae0e0;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+#principal{
+    color: #234D7A;
+    text-align: center;
+}
+h1{
+    color: #ad4137;
+}
+h2{
+    color: #AD6C66;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 25px;
+}
