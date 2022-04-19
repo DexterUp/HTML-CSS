@@ -30,7 +30,7 @@ para fontes importadas
 
 body{
     background-color: var(--cor5);
-    color: white;
+    color: var(--cor0);
     font-family: var(--fonte-destaque);
     text-align: center;
 }
