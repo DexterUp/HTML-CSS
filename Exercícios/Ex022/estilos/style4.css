@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0px;
+    
+}
+main{
+    background-image: url('../imagens/wallpaper005.jpg');
+    border: 2px dashed blueviolet;
+    height: 98vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    width: 99.7%;
+}
