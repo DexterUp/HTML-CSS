@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: white;
+}
+
+section#conteiner{
+    position: relative;
+    height: 97vh;
+    padding: 10px;
+    background-color: purple;
+    background-image: url('../imagens/target001.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+
+}
+article#conteudo{
+    position: absolute;
+    background-color: yellow;
+    background-image: url('../imagens/target001.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+    width: 200px;
+    height: 200px;
+    
+    transform: translate( -50%, -50%);
+    top: 50%;
+    left: 50%;
+}
