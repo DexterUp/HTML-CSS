@@ -16,6 +16,7 @@
 
     --fonte-destaque:'Passion One', 'cursive';
     --fonte-padrão:'Sriracha', 'cursive';
+    --fonte-comun: 'Verdana';
 }
 
 body{
@@ -37,10 +38,9 @@ header > h1{
     
 }
 header > p{
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-comum);
     color: var(--cor0);
     text-align: center;
-    
 }
 header > a{
     color: var(--cor0);
