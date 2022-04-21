@@ -33,6 +33,7 @@ header > h1{
     font-variant: small-caps;
     font-family: var(--fonte-destaque);
     font-size: 10vw;
+    text-shadow: 1px 1px 0px var(--cor2);
 }
 header > p{
     padding-bottom: 50px;
@@ -69,14 +70,16 @@ section.normal{
 section.imagem{
     background-color: var(--cor2);
     color: var(--cor0);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 6px var(--cor2t);
+    background-position: right center;
 }
 section#img01{
-    background-image: url('../imagens/background001.jpg');
-    background-position: right center;
+    background-image: url('../imagens/background001.jpg');  
 }
 section#img02{
     background-image: url('../imagens/background002.jpg');
-    background-position: right center;
 }
 footer{
     background-color: var(--cor2);
