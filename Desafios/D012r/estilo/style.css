@@ -11,7 +11,7 @@
 :root{
     --cor0: white;
     --cor1: darkgray;
-    --cor2t: rgba(0, 0, 0, 0.205);
+    --cor2t: rgba(0, 0, 0, 0.507);
     --cor2: black;
     
     --fonte-generica: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,6 +53,9 @@ section{
     font-family: var(--fonte-conteudo);
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.imagem > p{
     background-color:var(--cor2t) ;
     display: inline-block;
@@ -66,7 +69,14 @@ section.imagem{
     background-color: var(--cor2);
     color: var(--cor0);
 }
-
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+}
 footer{
     background-color: var(--cor2);
     color: var(--cor0);
