@@ -5,14 +5,19 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     font-style: none;
-    color: black;
-    background-color: transparent;
+    text-decoration: none;
+    
 }
 :root{
     /*Cores*/
     --cor0: white;
-    --cor1: aquamarine;
-    --cor6: black; 
+    --cor1: #bcc0db;
+    --cor2: #4A5FD9;
+    --cor3: #3E498C;
+    --cor4: #0DA633;
+    --cor5: #262626;
+    --cor6: #0D0D0D;
+    --cor7: black; 
 
     /*fontes*/
     --fonte-padrão: Arial;
@@ -27,12 +32,13 @@
     margin: 0 auto;
     height: 110px;
     align-items: center;
+    background-color: transparent;
 }
 .header-fundo{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
 }
 main{
-    border: 1px solid var(--cor6);
+    border: 1px solid var(--cor4);
     max-width: 950px;
     margin: 0 auto;
 }
@@ -43,26 +49,22 @@ main{
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: var(--cor1);
-    justify-content: center ;
+    background-color: var(--cor6);
+    justify-content: space-between;
     align-items: center;
    
 }
-.section-form-img form{
-    flex: 1;
-}
-.section-form-img div{
-    flex: 1;
-}
-.section-form-img img{
-    max-width: 50%;
-}
-    
 .form{
-    background-color: var(--cor1);
-    border: 1px dashed var(--cor6);
+    flex: 1 1 0;
+    background-color: var(--cor6);
+    border: 1px dashed var(--cor4);
     margin: 5px;
 }
+.imagem-back{
+    flex: 2 1 0;
+    background-color: #0DA633;
+}
+
 .sobre{
     display: flex;
     flex-wrap: wrap;
